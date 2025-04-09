@@ -78,6 +78,30 @@ body {
         cursor: pointer;
     }
 }
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 100vh;           /* Full viewport height */
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;            /* Space between boxes */
+    background-color: #376848; /* Example color */
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
 
   
 
